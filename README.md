@@ -36,13 +36,18 @@ How long does each timer count last?
 #####Required Functionality
 For required functionality, the biggest change to the program was creating if statements based off of button presses to toggle the LEDs. I also had to change the definitions of the the buttons so that they would match the button codes for the remote.
 
-A video of the functionality can be seen in the file list. Github did not support embedding of videos, so both the A and required functionality are uploaded in the file list
+A video of the required functionality can be seen in the link below.
 
-<video src="Req.mp4" width="320" height="200" controls preload></video>
+<embed width="440" height="420" type="application/x-shockwave-flash" src="http://v8.tinypic.com/player.swf?file=28mg4y0&s=8"><br><font size="1"><a href="http://tinypic.com/player.php?v=28mg4y0&s=8">Required Functionality</a>
+
+
 
 ###A Functionality
 
-For A functionality, I ended up using the etch a sketch program from Lab 4. Nothing really had to be changed on the asm file. The c file had to have the BIT and PIN inputs changed to the button code definitions. I also had to include a block of code to determine the IR signal reciever by the IR reciever. I ended up having to seek help from C2C Thompson to implement this particular part of the code. It involved determining whether a packet signal was fully recieved, and then it shifted a 1 or 0 to the IrPacket depending on which state the array was in. The video of the functionality can be found in the file list for this lab.
+For A functionality, I ended up using the etch a sketch program from Lab 4. Nothing really had to be changed on the asm file. The c file had to have the BIT and PIN inputs changed to the button code definitions. I also had to include a block of code to determine the IR signal reciever by the IR reciever. I ended up having to seek help from C2C Thompson to implement this particular part of the code. It involved determining whether a packet signal was fully recieved, and then it shifted a 1 or 0 to the IrPacket depending on which state the array was in. The video of the functionality can be seen in the link below. The quality was degraded so that the video could fit, but you can still see the program work. Sorry about that!
+
+<embed width="440" height="420" type="application/x-shockwave-flash" src="http://v8.tinypic.com/player.swf?file=21l796c&s=8"><br><font size="1"><a href="http://tinypic.com/player.php?v=21l796c&s=8">A Functionality</a>
 
 
 ###Conclusion
+
