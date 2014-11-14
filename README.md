@@ -38,14 +38,11 @@ How long does each timer count last?
 ###Required Functionality
 For required functionality, the biggest change to the program was creating if statements based off of button presses to toggle the LEDs. I also had to change the definitions of the the buttons so that they would match the button codes for the remote.
 
-A video of the functionality can be seen below.
-
-![alt text](http://tinypic.com/r/qzj7h5/8)
+A video of the functionality can be seen in the file list. Github did not support embedding of videos, so both the A and required functionality are uploaded in the file list
 
 ###A Functionality
 
-For A functionality, I ended up using the etch a sketch program from Lab 4. Nothing really had to be changed on the asm file. The c file had to have the BIT and PIN inputs changed to the button code definitions. I also had to include a block of code to determine the IR signal reciever by the IR reciever. I ended up having to seek help from C2C Thompson to implement this particular part of the code. It involved determining whether a packet signal was fully recieved, and then it shifted a 1 or 0 to the IrPacket depending on which state the array was in.
+For A functionality, I ended up using the etch a sketch program from Lab 4. Nothing really had to be changed on the asm file. The c file had to have the BIT and PIN inputs changed to the button code definitions. I also had to include a block of code to determine the IR signal reciever by the IR reciever. I ended up having to seek help from C2C Thompson to implement this particular part of the code. It involved determining whether a packet signal was fully recieved, and then it shifted a 1 or 0 to the IrPacket depending on which state the array was in. The video of the functionality can be found in the file list for this lab.
 
-![alt text](http://tinypic.com/r/16m3hbo/8)
 
 ###Conclusion
