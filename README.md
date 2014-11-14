@@ -51,3 +51,9 @@ For A functionality, I ended up using the etch a sketch program from Lab 4. Noth
 
 ###Conclusion
 
+One of my earlier problems occured when I was not consistent in defining my buttons. I had VOL_DN and VOL_DW used interchangeably and that caused a bunch of errors to pop up. Also, I had to constantly check to make sure my wires were properly connected to ensure I got the correct signal.
+
+###Documentation
+C2C Wooden, along with Capt Trimble, helped explain how to make sense of the logic analyzer and distinguish the different types of pulses
+
+C2C Thompson helped clarify how to get my A Functionality program to recieve IR signals by having a loop to detect packets and by including an ISR to notice when the pin changed.
