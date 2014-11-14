@@ -33,12 +33,12 @@ How long does each timer count last?
 
 ###Day 2 Activities
 
-
-
-###Required Functionality
+#####Required Functionality
 For required functionality, the biggest change to the program was creating if statements based off of button presses to toggle the LEDs. I also had to change the definitions of the the buttons so that they would match the button codes for the remote.
 
 A video of the functionality can be seen in the file list. Github did not support embedding of videos, so both the A and required functionality are uploaded in the file list
+
+<video src="Req.mp4" width="320" height="200" controls preload></video>
 
 ###A Functionality
 
